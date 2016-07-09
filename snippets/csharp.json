@@ -520,5 +520,22 @@
 			"}"
 		],
 		"description": "While loop"
+	},
+	
+	"xUnit Test": {
+
+		"prefix": "fact",
+		"body": [
+			"[Fact]",
+			"${1:public} void ${2:TestName}()", 
+			"{",
+				"//Given",
+				"",
+				"//When",
+				"",
+				"//Then",
+			"}${0}"
+		],
+		"description": "create xunit test method"
 	}
 }
